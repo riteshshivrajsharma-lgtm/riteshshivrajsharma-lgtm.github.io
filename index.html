@@ -31,7 +31,38 @@ section{padding:68px 0;border-top:1px solid var(--line)}.section-head{display:fl
     .progress-bar{position:fixed;top:0;left:0;height:3px;width:0;background:var(--accent);z-index:1000;box-shadow:0 0 12px rgba(124,156,255,.7)}
     @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
 
-    @media(max-width:760px){.projects{grid-template-columns:1fr}.hero{padding:72px 0 58px}.metrics{grid-template-columns:1fr 1fr}.navlinks{gap:13px;font-size:.82rem}}@media(max-width:480px){nav{align-items:flex-start;padding:15px 0;flex-direction:column}.hero h1{letter-spacing:-1px}.metrics{grid-template-columns:1fr}.section-head{display:block}.section-head p{margin-top:8px}}
+/* Responsive layouts: wide desktop, laptop, tablet and phones */
+    .project{position:relative;overflow:hidden}
+    .project:before{content:"";position:absolute;inset:0 auto 0 0;width:3px;background:linear-gradient(180deg,var(--accent),var(--accent2));transform:scaleY(0);transform-origin:top;transition:transform .45s ease}
+    .project:hover:before{transform:scaleY(1)}
+    .project:hover{box-shadow:0 18px 44px rgba(0,0,0,.28)}
+    .project .skill{transition:transform .25s ease,background .25s ease,border-color .25s ease}
+    .project .skill:hover{transform:translateY(-3px);background:#263a61;border-color:var(--accent)}
+    .skill{transition:transform .22s ease,background .22s ease,border-color .22s ease}
+    .skill:hover{transform:translateY(-3px);background:#263a61;border-color:var(--accent)}
+    .metric{transition:transform .3s ease,background .3s ease}
+    .metric:hover{transform:translateY(-5px);background:#1b2b49}
+    .btn{position:relative;overflow:hidden;transition:transform .25s ease,box-shadow .25s ease}
+    .btn:after{content:"";position:absolute;top:-70%;left:-45%;width:28%;height:240%;background:rgba(255,255,255,.22);transform:rotate(25deg) translateX(-220%);transition:transform .65s ease}
+    .btn:hover:after{transform:rotate(25deg) translateX(650%)}
+    .section-head h2{position:relative;display:inline-block}
+    .section-head h2:after{content:"";position:absolute;left:0;bottom:-7px;width:42%;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .4s ease}
+    .section-head h2:hover:after{width:100%}
+    .project.reveal{transition-delay:var(--reveal-delay,0ms)}
+    .projects .project:nth-child(2){--reveal-delay:90ms}.projects .project:nth-child(3){--reveal-delay:160ms}.projects .project:nth-child(4){--reveal-delay:230ms}.projects .project:nth-child(5){--reveal-delay:300ms}
+    .projects .project.reveal{transition-delay:var(--reveal-delay,0ms)}
+    .hero .kicker{animation:fadeUp .7s both}
+    .hero .metrics{animation:fadeUp .8s .45s both}
+    @keyframes ambientDrift{0%,100%{background-position:85% -10%,0 0}50%{background-position:75% 5%,0 0}}
+    body{background-size:100% 780px,auto;background-repeat:no-repeat;background-attachment:fixed;animation:ambientDrift 18s ease-in-out infinite}
+    @media(min-width:1440px){:root{--max:1240px}body{font-size:17px}.hero{padding:124px 0 104px}.projects{gap:22px}.project{padding:30px}}
+    @media(max-width:1100px){:root{--max:960px}.hero{padding:86px 0 72px}.projects{gap:15px}.project{padding:21px}.navlinks{gap:18px}}
+    @media(max-width:900px){.wrap{width:min(100% - 48px,var(--max))}nav{min-height:68px}.navlinks{gap:15px}.projects{grid-template-columns:repeat(2,minmax(0,1fr))}.section-head{align-items:flex-start;flex-direction:column}.section-head p{max-width:720px}.hero h1{font-size:clamp(2.7rem,8vw,4.6rem)}}
+    @media(max-width:680px){.wrap{width:calc(100% - 36px)}header{position:sticky}nav{padding:13px 0;align-items:flex-start;flex-direction:column;gap:10px}.navlinks{width:100%;gap:8px 18px;flex-wrap:wrap;font-size:.88rem}.hero{padding:64px 0 54px}.hero h1{font-size:clamp(2.45rem,10vw,3.8rem);letter-spacing:-1.4px}.intro{font-size:1rem}.metrics{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:36px}.metric{padding:12px 10px}.metric strong{font-size:1.05rem}.metric span{font-size:.76rem}section{padding:52px 0}.section-head h2{font-size:1.75rem}.projects{grid-template-columns:1fr;gap:14px}.project{padding:21px}.contact-panel{padding:24px}.actions{gap:10px}.btn{min-height:44px;align-items:center}}
+    @media(max-width:420px){.wrap{width:calc(100% - 28px)}.hero{padding:52px 0 44px}.hero h1{font-size:2.35rem}.metrics{grid-template-columns:1fr;max-width:100%;gap:9px}.metric{display:flex;align-items:center;justify-content:space-between;gap:12px}.metric strong{font-size:1rem}.metric span{text-align:right}.navlinks{gap:7px 14px;font-size:.82rem}.actions{flex-direction:column;align-items:stretch}.actions .btn{justify-content:center}.project-top{align-items:flex-start}.type{max-width:42%}.contact-links{flex-direction:column}.contact-links a{text-align:center}}
+    @media(hover:none){.project:hover,.metric:hover,.skill:hover,.btn:hover{transform:none;box-shadow:none}}
+    @media(prefers-reduced-motion:reduce){body{animation:none!important;background-attachment:scroll!important}.project.reveal{transition-delay:0ms!important}}
+
 </style>
 </head>
 <body>
@@ -64,7 +95,7 @@ section{padding:68px 0;border-top:1px solid var(--line)}.section-head{display:fl
 <footer><div class="wrap">© <span id="year"></span> Ritesh Sharma · Microsoft Power Platform Developer</div></footer>
 <script>
 document.getElementById('year').textContent=new Date().getFullYear();
-const revealTargets=document.querySelectorAll('main section:not(.hero), .project-card, .card');
+const revealTargets=document.querySelectorAll('main section:not(.hero), .project, .project-card, .card');
 revealTargets.forEach(el=>el.classList.add('reveal'));
 if('IntersectionObserver' in window){
   const observer=new IntersectionObserver(entries=>{
