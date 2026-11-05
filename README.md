@@ -1,26 +1,58 @@
-# Ritesh Sharma — Power Platform Developer Portfolio
+# Ritesh Sharma | Microsoft Power Platform Developer
 
-A responsive GitHub Pages portfolio highlighting my Microsoft Power Platform experience, core skills and selected project contributions.
+A responsive portfolio website showcasing selected Power Platform project experience, technical capabilities and solution-focused work.
 
-## About
-Power Platform developer with around 5 years of overall experience and 4.2 years of hands-on experience across Power Apps, Power Pages, Power Automate, Dataverse, SharePoint, Power BI and Copilot Studio.
+## Profile
 
-## Featured projects
-1. **Smart Utility Customer & Field Service Self-Service Portal** — Power Pages, Dataverse, Liquid, JavaScript/jQuery, Power Automate, Azure AD B2C, Copilot Studio and Azure DevOps.
-2. **Enterprise Vendor Onboarding & Contract Management Portal** — Power Pages, Dataverse, Liquid, JavaScript/jQuery, Power Automate, Azure AD B2C, Azure Blob Storage and Azure DevOps.
-3. **Enterprise Operational Portals & Legacy Modernization** — Canvas and Model-Driven Power Apps, Power Automate, Dataverse, SharePoint and SQL Server.
-4. **Automated Financial Audit & Bank Statement Reconciliation Bot** — Power Automate, Dataverse, SQL Server and Power Platform integrations.
-5. **AI Copilots & Conversational Workflow Automation** — Microsoft Copilot, Copilot Studio, Power Automate, Power Apps and Dataverse.
-6. **Dealer Operations & Claims Portal (DOCP)** — Power Platform business solution experience for dealer operations and claims workflows.
+Microsoft Power Platform Developer with around **5 years of overall experience**, including **4.2 years of hands-on experience** across business application development, workflow automation, self-service portals and Copilot-based experiences.
 
-The Employee Self-Service Reimbursement App has been removed from the portfolio as requested. Project descriptions are summarized at a high level to respect client confidentiality.
+## Core technologies
 
-## Run locally
-Open `index.html` in a browser.
+- **Power Platform:** Power Apps (Canvas and Model-driven), Power Pages, Power Automate, Power Automate Desktop, Dataverse, Power BI
+- **AI & conversational solutions:** Copilot Studio, Microsoft Copilot, AI Builder
+- **Data & collaboration:** SharePoint, SQL Server, Microsoft 365
+- **Development & integration:** Power Fx, Liquid, JavaScript/jQuery, REST APIs, JSON
+- **Cloud & delivery:** Azure AD B2C, Azure Blob Storage, Microsoft Entra ID, Azure DevOps
 
-## Publish with GitHub Pages
-This repository uses the `<username>.github.io` naming convention. In GitHub, open **Settings → Pages** and confirm the source is set to deploy from the `main` branch and the `/(root)` folder.
+## Selected projects
 
-## Before sharing
-- Review project descriptions and metrics for accuracy and client confidentiality.
-- Confirm that any displayed project details are approved for public sharing.
+### 1. Smart Utility Customer & Field Service Portal
+A unified customer-facing portal concept covering outage reporting, service requests, billing queries and appointment management. Work highlights portal customization, Dataverse design and security, workflow automation, authentication and chatbot integration.
+
+**Technologies:** Power Pages, Dataverse, Liquid, JavaScript/jQuery, Power Automate, Azure AD B2C, Copilot Studio, Azure DevOps.
+
+### 2. Vendor Onboarding & Contract Management Portal
+A centralized vendor journey for registration, compliance submissions, document handling, contract management and renewal workflows.
+
+**Technologies:** Power Pages, Dataverse, Liquid, JavaScript/jQuery, Power Automate, Azure AD B2C, Azure Blob Storage, Azure DevOps.
+
+### 3. Enterprise Operational Apps & Legacy Modernization
+Modernization of operational processes through Canvas and Model-driven apps, connected to enterprise data sources and supporting automated business workflows.
+
+**Technologies:** Power Apps, Power Automate, Dataverse, SharePoint, SQL Server.
+
+### 4. Financial Audit & Bank Statement Reconciliation
+Workflow automation for financial audit and statement reconciliation, including data validation, exception handling and process notifications. The solution helped bring the remaining manual effort to approximately 10–15%, from an earlier estimate of 30–40%.
+
+**Technologies:** Power Automate, Dataverse, SQL Server, Power Platform integrations.
+
+### 5. AI Copilots & Conversational Workflow Automation
+Conversational experiences connecting Copilot Studio with Power Platform workflows and business data to help users retrieve information and initiate common processes.
+
+**Technologies:** Copilot Studio, Microsoft Copilot, Power Automate, Power Apps, Dataverse.
+
+### 6. KYC Onboarding & Screening Agent — Prototype
+A case-study proof of concept for guided business onboarding and due diligence, covering company verification, beneficial ownership (UBO), sanctions, PEP and adverse-media screening. It is presented as a prototype, not a production deployment.
+
+**Technologies:** Copilot Studio, Power Automate, Power Platform and conceptual external verification/screening integrations.
+
+## Portfolio
+
+The website is published through GitHub Pages. Open `index.html` locally to preview it.
+
+## Notes
+
+- Project descriptions are intentionally rewritten as concise solution summaries rather than copied from source notes.
+- Client-sensitive details and personal contact information are not published.
+- The KYC onboarding and screening agent is a prototype/case-study concept.
+- The Employee Self-Service Reimbursement App has been excluded from this portfolio.
