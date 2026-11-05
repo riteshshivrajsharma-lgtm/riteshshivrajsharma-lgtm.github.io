@@ -1,58 +1,41 @@
 # Ritesh Sharma | Microsoft Power Platform Developer
 
-A responsive portfolio website showcasing selected Power Platform project experience, technical capabilities and solution-focused work.
+I build practical business solutions with Microsoft Power Platform—bringing applications, automation and conversational experiences together to make everyday work simpler.
 
-## Profile
+**Experience:** Around 5 years overall, including 4.2 years of hands-on Power Platform experience.
 
-Microsoft Power Platform Developer with around **5 years of overall experience**, including **4.2 years of hands-on experience** across business application development, workflow automation, self-service portals and Copilot-based experiences.
+## What I work with
 
-## Core technologies
-
-- **Power Platform:** Power Apps (Canvas and Model-driven), Power Pages, Power Automate, Power Automate Desktop, Dataverse, Power BI
-- **AI & conversational solutions:** Copilot Studio, Microsoft Copilot, AI Builder
-- **Data & collaboration:** SharePoint, SQL Server, Microsoft 365
-- **Development & integration:** Power Fx, Liquid, JavaScript/jQuery, REST APIs, JSON
-- **Cloud & delivery:** Azure AD B2C, Azure Blob Storage, Microsoft Entra ID, Azure DevOps
+Power Apps (Canvas and Model-driven) · Power Pages · Power Automate · Power Automate Desktop · Dataverse · Copilot Studio · AI Builder · SharePoint · SQL Server · Power BI · Power Fx · Liquid · JavaScript · REST APIs · Microsoft 365 · Azure DevOps
 
 ## Selected projects
 
-### 1. Smart Utility Customer & Field Service Portal
-A unified customer-facing portal concept covering outage reporting, service requests, billing queries and appointment management. Work highlights portal customization, Dataverse design and security, workflow automation, authentication and chatbot integration.
+### Smart Utility Customer & Field Service Self-Service Portal
 
-**Technologies:** Power Pages, Dataverse, Liquid, JavaScript/jQuery, Power Automate, Azure AD B2C, Copilot Studio, Azure DevOps.
+A customer-friendly digital hub for common utility needs, from reporting service interruptions to raising requests, checking billing matters and managing appointments. The experience brings key journeys together instead of sending customers across multiple support channels.
 
-### 2. Vendor Onboarding & Contract Management Portal
-A centralized vendor journey for registration, compliance submissions, document handling, contract management and renewal workflows.
+### Enterprise Vendor Onboarding & Contract Management Portal
 
-**Technologies:** Power Pages, Dataverse, Liquid, JavaScript/jQuery, Power Automate, Azure AD B2C, Azure Blob Storage, Azure DevOps.
+A streamlined workspace for vendor registration, compliance submissions, document exchange and contract renewals. It helps organize the vendor lifecycle and gives internal teams a more consistent way to manage information and follow-up activities.
 
-### 3. Enterprise Operational Apps & Legacy Modernization
-Modernization of operational processes through Canvas and Model-driven apps, connected to enterprise data sources and supporting automated business workflows.
+### Enterprise Operational Portals & Legacy Modernization
 
-**Technologies:** Power Apps, Power Automate, Dataverse, SharePoint, SQL Server.
+Modernizing operational processes through connected business apps and digital portals. The emphasis is on simplifying everyday tasks, improving how information is captured and shared, and reducing reliance on fragmented manual steps.
 
-### 4. Financial Audit & Bank Statement Reconciliation
-Workflow automation for financial audit and statement reconciliation, including data validation, exception handling and process notifications. The solution helped bring the remaining manual effort to approximately 10–15%, from an earlier estimate of 30–40%.
+### Automated Financial Audit & Bank Statement Reconciliation Bot
 
-**Technologies:** Power Automate, Dataverse, SQL Server, Power Platform integrations.
+An automation-led approach to financial audit and bank statement reconciliation, supporting data checks, exception identification and follow-up. The work reduced the estimated remaining manual effort to around **10–15%**, from an earlier **30–40%**.
 
-### 5. AI Copilots & Conversational Workflow Automation
-Conversational experiences connecting Copilot Studio with Power Platform workflows and business data to help users retrieve information and initiate common processes.
+### AI Copilots & Conversational Workflow Automation
 
-**Technologies:** Copilot Studio, Microsoft Copilot, Power Automate, Power Apps, Dataverse.
-
-### 6. KYC Onboarding & Screening Agent — Prototype
-A case-study proof of concept for guided business onboarding and due diligence, covering company verification, beneficial ownership (UBO), sanctions, PEP and adverse-media screening. It is presented as a prototype, not a production deployment.
-
-**Technologies:** Copilot Studio, Power Automate, Power Platform and conceptual external verification/screening integrations.
+Conversational experiences that help people access information and initiate routine business actions in a more natural way. These solutions connect Copilot Studio with Power Platform workflows and business data.
 
 ## Portfolio
 
-The website is published through GitHub Pages. Open `index.html` locally to preview it.
+Visit the live portfolio: [riteshshivrajsharma-lgtm.github.io](https://riteshshivrajsharma-lgtm.github.io/)
 
 ## Notes
 
-- Project descriptions are intentionally rewritten as concise solution summaries rather than copied from source notes.
-- Client-sensitive details and personal contact information are not published.
-- The KYC onboarding and screening agent is a prototype/case-study concept.
-- The Employee Self-Service Reimbursement App has been excluded from this portfolio.
+- Project summaries are intentionally selective and rewritten for readability; they do not reproduce every source point.
+- Details are kept at a high level to respect client confidentiality.
+- The Employee Self-Service Reimbursement App is not included.
